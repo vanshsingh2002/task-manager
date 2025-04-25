@@ -33,7 +33,6 @@ const EditTaskPopup: React.FC<Props> = ({ isOpen, onClose, onSave, initialData }
     });
   }, [initialData]);
 
-  console.log(initialData)
   if (!isOpen) return null;
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
